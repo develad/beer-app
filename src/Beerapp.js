@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from "react";
-
 import Beerbtn from "./components/Beerbtn";
 import Listbeer from "./components/Listbeer";
 import Beerlistcard from "./components/Beerlistcard";
 import Gotosearchbtn from "./components/Gotosearchbtn";
 import { motion } from 'framer-motion'
-
-// import Beer from './components/Beer'
 import "./Beer.css";
 
 function Beerapp() {
@@ -32,7 +29,7 @@ function Beerapp() {
   }
   useEffect(() => {
     // console.clear()
-    console.log(allbeers);
+    // console.log(allbeers);
   }, [allbeers]);
 
   const footer = () => {
@@ -44,7 +41,6 @@ function Beerapp() {
       >
         <a
           style={{
-            // margin: "20px",
             textShadow: "3px 3px 5px black",
             textDecoration: "none",
             color: "white",
@@ -69,7 +65,7 @@ function Beerapp() {
       const filteredArry = allbeers.filter((beer) =>
         beer.name.toLowerCase().includes(search.toLowerCase())
       );
-      console.log(filteredArry);
+      // console.log(filteredArry);
       setBeers(filteredArry);
       window.location.href = "#beerbtn";
     }
@@ -77,7 +73,7 @@ function Beerapp() {
   };
   const newRender = () => {
     setBeers(beerfind);
-    console.log("beerfind:", beerfind);
+    // console.log("beerfind:", beerfind);
     window.location.href = "#beerbtn";
   };
   const showallbeers = () => {
@@ -118,7 +114,7 @@ function Beerapp() {
               } else {
                 setPage(page + 1);
               }
-              console.log(page);
+              // console.log(page);
             }}
           >
             <Beerbtn />
@@ -134,9 +130,6 @@ function Beerapp() {
         </div>
       </div>
       <h1 style={{ marginBottom: '5px' }}>
-        {/* <span role='img' aria-label='beer'>
-          🍺{" "}
-        </span>{" "} */}
         Displayed Beers in the page:{" "}
         <span style={{ borderBottom: " 5px solid lime" }}>{beers.length}</span>{" "}
       </h1>
@@ -145,9 +138,6 @@ function Beerapp() {
         <span style={{ borderBottom: " 5px solid lime" }}>
           {allbeers.length}
         </span>{" "}
-        {/* <span role='img' aria-label='beer'>
-          🍺{" "}
-        </span> */}
       </h1>
       <img src={require('../src/img01.gif')} alt="beer" style={{ height: '100px', width: '100px' }} />
       <Listbeer beers={beers} />
@@ -188,13 +178,12 @@ function Beerapp() {
                 setAllbeers([]);
                 window.location.href = "#beerbtn";
               }
-              console.log(page);
+              // console.log(page);
             }}
           >
             Clear Screen
           </button>
         </form>
-        {/* <h1>{search}</h1> */}
       </div>
       <Beerlistcard allbeers={allbeers} />
       <a className='search-a' href='#beerbtn' style={{ marginTop: "10px" }}>
