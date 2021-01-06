@@ -4,6 +4,8 @@ import Beerbtn from "./components/Beerbtn";
 import Listbeer from "./components/Listbeer";
 import Beerlistcard from "./components/Beerlistcard";
 import Gotosearchbtn from "./components/Gotosearchbtn";
+import { motion } from 'framer-motion'
+
 // import Beer from './components/Beer'
 import "./Beer.css";
 
@@ -84,7 +86,23 @@ function Beerapp() {
   };
 
   return (
-    <div className='beerapp'>
+    <motion.div className='beerapp'
+      initial={{
+        y:-100,
+        opacity:0,
+      }}
+      animate={{
+        y:0,
+        opacity:1,
+        
+      }}
+      transition={{
+        type:"spring",
+        stiffness:800,
+        delay:1,
+        ease: "easeOut"
+      }}
+    >
       <div className='btn-cont'>
         <div className="upper-btn">
           <div
@@ -184,7 +202,7 @@ function Beerapp() {
       </a>
 
       {footer()}
-    </div>
+    </motion.div>
   );
 }
 
