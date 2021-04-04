@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/develad/beer-app/static/css/main.7dc1cc5a.chunk.css",
-    "main.js": "/develad/beer-app/static/js/main.52a75fb4.chunk.js",
-    "main.js.map": "/develad/beer-app/static/js/main.52a75fb4.chunk.js.map",
-    "runtime-main.js": "/develad/beer-app/static/js/runtime-main.619e01d3.js",
-    "runtime-main.js.map": "/develad/beer-app/static/js/runtime-main.619e01d3.js.map",
-    "static/js/2.24d02b81.chunk.js": "/develad/beer-app/static/js/2.24d02b81.chunk.js",
-    "static/js/2.24d02b81.chunk.js.map": "/develad/beer-app/static/js/2.24d02b81.chunk.js.map",
-    "index.html": "/develad/beer-app/index.html",
-    "precache-manifest.423d1cb8e86dc4563be5cd52a1f49140.js": "/develad/beer-app/precache-manifest.423d1cb8e86dc4563be5cd52a1f49140.js",
-    "service-worker.js": "/develad/beer-app/service-worker.js",
-    "static/css/main.7dc1cc5a.chunk.css.map": "/develad/beer-app/static/css/main.7dc1cc5a.chunk.css.map",
-    "static/js/2.24d02b81.chunk.js.LICENSE.txt": "/develad/beer-app/static/js/2.24d02b81.chunk.js.LICENSE.txt",
-    "static/media/img01.gif": "/develad/beer-app/static/media/img01.974c25fc.gif"
+    "main.css": "/beer-app/static/css/main.7dc1cc5a.chunk.css",
+    "main.js": "/beer-app/static/js/main.52a75fb4.chunk.js",
+    "main.js.map": "/beer-app/static/js/main.52a75fb4.chunk.js.map",
+    "runtime-main.js": "/beer-app/static/js/runtime-main.d170c160.js",
+    "runtime-main.js.map": "/beer-app/static/js/runtime-main.d170c160.js.map",
+    "static/js/2.24d02b81.chunk.js": "/beer-app/static/js/2.24d02b81.chunk.js",
+    "static/js/2.24d02b81.chunk.js.map": "/beer-app/static/js/2.24d02b81.chunk.js.map",
+    "index.html": "/beer-app/index.html",
+    "precache-manifest.7e1cfe9d9f6fd0a7e7de3bde7db918d8.js": "/beer-app/precache-manifest.7e1cfe9d9f6fd0a7e7de3bde7db918d8.js",
+    "service-worker.js": "/beer-app/service-worker.js",
+    "static/css/main.7dc1cc5a.chunk.css.map": "/beer-app/static/css/main.7dc1cc5a.chunk.css.map",
+    "static/js/2.24d02b81.chunk.js.LICENSE.txt": "/beer-app/static/js/2.24d02b81.chunk.js.LICENSE.txt",
+    "static/media/img01.gif": "/beer-app/static/media/img01.974c25fc.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.619e01d3.js",
+    "static/js/runtime-main.d170c160.js",
     "static/js/2.24d02b81.chunk.js",
     "static/css/main.7dc1cc5a.chunk.css",
     "static/js/main.52a75fb4.chunk.js"
