@@ -1,3 +1,7 @@
+![Preview image](public\perview-github.png)
+
+# [Live Demo Site! 🍺 <<<](https://develad.github.io/beer-app/#beerbtn)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
