@@ -1,4 +1,4 @@
-![Preview image](public\perview-github.png)
+![Preview image](https://raw.githubusercontent.com/develad/beer-app/main/public/perview-github.png)
 
 # [Live Demo Site! 🍺 <<<](https://develad.github.io/beer-app/#beerbtn)
 
